@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: auto;
+
+    grid-template-rows: auto;
+    gap: 10px
+}
+
+
+.header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    min-height: 90px;
+    font-size: 30px;
+    background-color: #23D4FF;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+.hero {
+    min-height: 300px;
+    grid-column: 1/2;
+    grid-row-start: 2/4;
+    background-color: #DFCADD;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+
+
+}
+
+.main {
+    grid-column: 2/4;
+    grid-row: 2/4;
+    min-height: 500px;
+    background-color: #EDC527;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+
+
+
+}
+
+.sidebar {
+    grid-column: 1/2;
+    grid-row: 3/5;
+    min-height: 400px;
+    background-color: #80C268;
+    color: white;
+    font-size: 30px;
+
+
+    text-align: center;
+}
+
+
+.extra {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    min-height: 200px;
+    background-color: #898987;
+    color: white;
+    font-size: 30px;
+
+    text-align: center;
+}
+
+.relatedimgs {
+    grid-column: 1 /3;
+    grid-row: 5/6;
+    min-height: 200px;
+
+    background-color: #00B68D;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.relatedposts {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    min-height: 200px;
+    background-color: #FFCDD4;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer {
+    grid-column: 1/4;
+    grid-row: 6/7;
+    min-height: 90px;
+    background-color: #FEA500;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
